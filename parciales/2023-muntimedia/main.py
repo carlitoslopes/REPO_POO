@@ -15,7 +15,7 @@ años = [1994,2000,2023,2024,2011,2012]
 lista_pelis = []
 lista_serie = []
 
-usuario= Usuario("carlos","lopes","carlos-lopes52@hotmail.com","pity1234")
+usuario= Usuario("carlos","lopes","carlitos-lopes05@hotmail.com","pity1234")
 
 for i in range(0,10):
     lista_pelis.append(Peliculas(random.choice(pelicula),random.choice(años),random.randint(1,5)))
