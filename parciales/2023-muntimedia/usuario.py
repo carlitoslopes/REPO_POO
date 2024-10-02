@@ -24,6 +24,7 @@ class Usuario:
         
         
     def mostrar_usuario(self):
+        print(" ")
         print("🎬🎬🎬🎬🎬🎬🎬🎬🎬 VIDEO AMIGO 🎬🎬🎬🎬🎬🎬🎬🎬🎬")
         print(f"NOMBRE : {self._nombre}")
         print(f"APELLIDO: {self._apellido}")
