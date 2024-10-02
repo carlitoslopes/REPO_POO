@@ -23,5 +23,5 @@ class Series(Films):
         
     def ficha_multimedia(self):
         super().ficha_multimedia()
-        print(f"CAPITULOS")
+        print(f"--------CAPITULOS------------")
         self._agregar_capitulos()
