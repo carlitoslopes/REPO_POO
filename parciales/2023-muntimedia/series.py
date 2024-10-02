@@ -9,9 +9,10 @@ class Series(Films):
         
     def _agregar_capitulos(Self):
         capitulos = random.randint(1,10)
-        opcion = random.randint(0,1)
+        
         for i in range(capitulos):
             Self._capitulos.append(i)
+            opcion = random.randint(0,1)
             print(f"CAPITULO: {i}")
             if opcion == 0:
                 print("visto ✅")
